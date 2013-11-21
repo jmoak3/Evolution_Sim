@@ -1,0 +1,31 @@
+I would LOVE if you contact me when looking over or running this application,
+it has so many nuances and little details you can tweak to alter the simulation to your
+liking, and I would love to show them all to you. 
+I can be reached at mrjmoak3@gmail.com, or mrjmoak3@gatech.edu.
+
+I'll try to cover some basic things about it:
+
+By James Allen Moak III
+
+This program simulates the logistics of the theory of evolution. 
+Each lifeform has statistics that determine its behavior.
+Upon creation, the lifeform's statistics can vary randomly from that of the parent's statistics.
+The white hollow squares are Eggs.
+The brown solid squares are Food.
+The jelly-fish-like moving things are the lifeforms. 
+
+Upon contacting 'food' the lifeform will eat it. The food is used to sustain itself,
+as well as producing offspring.
+Offspring's traits differ from their parents slightly, using a simple algorithm.
+
+Press Escape to exit the program.
+Use the mouse's scroll wheel to zoom in and out.
+Left-Click a lifeform to get it's stats.
+Right-Click a lifeform to 'follow' it.
+Use the left and right arrow keys to fast-forward or slow down time
+
+*WARNING*: fast forwarding will effect the stability of the program.
+If lifeforms are moving at high speeds with a low framerate, errors in the sim WILL occur!
+
+I have been working on and off on this project since Junior year of High School, and I 
+love talking about it, so feel more than free to contact me if you have any questions.

@@ -1,0 +1,36 @@
+﻿Build started 5/11/2012 8:20:13 AM.
+     1>Project "E:\Evolution Sim Test Src\Evolution Sim Test Src\Evolution Sim Test Src.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Evolution Sim Test Src.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Egg.cpp Evolution.cpp LifeForm.cpp
+         LifeForm.cpp
+         Evolution.cpp
+     1>e:\evolution sim test src\evolution sim test src\evolution.cpp(187): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>e:\evolution sim test src\evolution sim test src\evolution.cpp(515): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\evolution sim test src\evolution sim test src\evolution.cpp(570): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+         Egg.cpp
+         Generating Code...
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Evolution Sim Test Src\Debug\Evolution Sim Test Src.exe" /NOLOGO d3d9.lib d3dx9d.lib dxguid.lib DxErr.lib dinput8.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Evolution Sim Test Src.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Evolution Sim Test Src\Debug\Evolution Sim Test Src.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Evolution Sim Test Src\Debug\Evolution Sim Test Src.lib" /MACHINE:X86 Debug\D3DApp.obj
+         Debug\DirectInput.obj
+         Debug\Egg.obj
+         Debug\Evolution.obj
+         Debug\Food.obj
+         Debug\GfxStats.obj
+         Debug\LifeForm.obj
+         Debug\Vertex.obj
+         LINK : E:\Evolution Sim Test Src\Debug\Evolution Sim Test Src.exe not found or not built by the last incremental link; performing full link
+         Evolution Sim Test Src.vcxproj -> E:\Evolution Sim Test Src\Debug\Evolution Sim Test Src.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\Evolution Sim Test Src\Debug\Evolution Sim Test Src.exe;#1" /manifest "Debug\Evolution Sim Test Src.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Debug\Evolution Sim Test Src.unsuccessfulbuild".
+         Touching "Debug\Evolution Sim Test Src.lastbuildstate".
+     1>Done Building Project "E:\Evolution Sim Test Src\Evolution Sim Test Src\Evolution Sim Test Src.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:31.61
